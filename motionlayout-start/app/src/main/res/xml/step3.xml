@@ -29,9 +29,15 @@
         <KeyFrameSet>
             <KeyPosition
                 app:framePosition="50"
-                app:keyPositionType="parentRelative"
+                app:keyPositionType="deltaRelative"
                 app:motionTarget="@id/moon"
-                app:percentY="0.5" />
+                app:percentX="1.0" />
+
+            <KeyPosition
+                app:framePosition="80"
+                app:keyPositionType="deltaRelative"
+                app:motionTarget="@id/moon"
+                app:percentX="0.3" />
         </KeyFrameSet>
     </Transition>
 
